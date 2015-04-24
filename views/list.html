@@ -17,7 +17,7 @@
 			</div>
 
 			<div class="main col-xs-7">
-				<a href="{{result.mobile_url}}" target="_blank"><h3>{{result.name}}</h3></a>
+				<a href="{{result.mobile_url}}" target="_self"><h3>{{result.name}}</h3></a>
 				<img ng-src="{{result.rating_img_url}}" />
 			</div>
 
@@ -27,7 +27,7 @@
 			</div> -->
 
 			<div class="col-xs-3 go text-center">
-				<a href="http://maps.google.com/?saddr={{myLat}},{{myLong}}&daddr={{result.location.coordinate.latitude}},{{result.location.coordinate.longitude}}&dirflg=w" target="_parent"><h3>GO!</h3></a>
+				<a href="http://maps.google.com/?saddr={{myLat}},{{myLong}}&daddr={{result.location.coordinate.latitude}},{{result.location.coordinate.longitude}}&dirflg=w" target="_self"><h3>GO!</h3></a>
 			</div>
 		</div>
 		
